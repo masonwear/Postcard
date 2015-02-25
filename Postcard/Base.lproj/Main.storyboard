@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2rp-7S-PyN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NMG-rJ-24J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="qzz-Iw-io9">
@@ -103,6 +104,24 @@
                                     <rect key="frame" x="16" y="72" width="341" height="98"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezt-xd-ipw">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="101" y="201" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zig-2E-OAe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="201" width="242" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +131,8 @@
                                 <exclude reference="NQG-Ja-kTI"/>
                                 <exclude reference="0xl-OC-o8c"/>
                                 <exclude reference="dLZ-9F-2Vr"/>
+                                <exclude reference="Ezt-xd-ipw"/>
+                                <exclude reference="zig-2E-OAe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +142,8 @@
                                 <include reference="NQG-Ja-kTI"/>
                                 <include reference="0xl-OC-o8c"/>
                                 <include reference="dLZ-9F-2Vr"/>
+                                <include reference="Ezt-xd-ipw"/>
+                                <include reference="zig-2E-OAe"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +152,7 @@
                         <outlet property="enterNameTextField" destination="Qzj-SE-leF" id="8mG-CR-Baa"/>
                         <outlet property="mailButton" destination="0xl-OC-o8c" id="xwy-wS-pbc"/>
                         <outlet property="messageLabel" destination="dLZ-9F-2Vr" id="5XK-4R-1AM"/>
+                        <outlet property="nameLabel" destination="zig-2E-OAe" id="wOi-rG-R7h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
